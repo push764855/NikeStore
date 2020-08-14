@@ -1,0 +1,636 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+		width: 2000px;
+		height: auto;
+		margin: 0 auto;
+}
+
+body{
+	
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url("../img/HO15_youngathletes_clothing_page_02.jpg");
+	background-size: cover;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	
+	
+	
+}
+header{
+	width: 100%;
+	height: 72px;
+	background-color: white;
+    color: white;
+    font-family: ".VnArial";
+	position: fixed;
+	float: left;
+	z-index: 1000;
+	border-bottom: 1px solid #898989}
+#icon{
+	width: 100%;
+	height: 28px;
+	background-color: white;
+	
+	
+}
+#nike{
+	width: 60px;
+	height: 27.3px;
+	float: left;
+	background-color: white;
+	border-right: 1px solid #3B3838;
+	text-align: center;
+	color: black;
+	font-size: 13px;
+}
+#nikeplus{
+	width: 80px;
+	height: 27.3px;
+	float: left;
+	background-color: white;
+	border-right: 1px solid #3B3838;
+	text-align: center;
+	color: black;
+	font-size: 13px;
+	
+}
+#jordan{
+	width: 60px;
+	height: 27.3px;
+	float: left;
+	background-color: white;
+	border-right: 1px solid #3B3838;
+	text-align: center;
+}
+#headerupper{
+	width: 100%;
+	height: 28px;
+	background: red;
+	border-bottom: 2px solid #4A3839;
+
+	
+}
+#headerlower{
+	width: 100%;
+	height: 42px;
+	background: blue;
+	float: left;
+}
+#nike p{
+	margin : 0 auto;
+	padding: 0 auto;
+	margin-top: 5.5px;
+	
+}
+#nike:hover {
+	background: #E7E7E7;
+}
+#nikeplus p{
+	margin : 0 auto;
+	padding: 0 auto;
+	margin-top: 6px;
+}
+#nikeplus:hover {
+	background: #E7E7E7;
+}
+#jordan img{
+	width: 17.5px;
+	height: 17.5px;
+	margin-top: 6px;
+}
+#jordan:hover {
+	background: #E7E7E7;
+}
+.nikeicon{
+	height: 42px;
+	width: 140px;
+	float: left;
+	background-color: white;
+	margin-left:  0px;
+}
+.nikeicon img{
+	height: 31.5px;
+	width: 105px;
+	margin-top: 10px;
+	margin-left: 22px;
+	
+}
+#login{
+	width: 140px;
+	height: 27.3px;
+	float: right;
+	background-color: white;
+	
+	
+		
+}
+#login p{
+	text-align: center;
+	font-size: 15px;
+	color: red;
+	margin-top: 5px;
+	
+}
+.maimenu{
+	float: left;
+	width: 70%;
+	height: 42px;
+}
+nav{
+	width: 800px;
+	height: 28px;
+	float :left;
+	background-color:white;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 300px;
+	margin-top: 7px;
+	
+	
+}
+nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	width: 150px;
+	height: 21px;
+	float: left;
+	
+	background-color: white;
+}
+a:hover{
+		color: red;
+}
+#menu{
+	width: 100%;
+	height: 42px;
+	background-color: white;
+	float: left;
+	margin-left: 0px;
+}
+.content{
+	width: 100%;
+	height: 2000px;
+	background-color: white;
+	float: left;
+	margin-top: 500px;
+}
+
+.container{
+	width: 100%;
+	background-color: white;
+	float: left;
+	
+}
+
+
+footer{
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin-top : 0px;
+	background-color: black;
+	
+}
+.space {
+	float: left;
+	width: 100%;
+	height: 350px;
+	margin-top: 300px;
+}
+.left{
+	float:left;
+	width: 35%;
+	height: 100%;
+}
+.right{
+	float: right;
+	width: 30%;
+	height: 100%;
+}
+.center{
+	float: left;
+	width: 35%;
+	height: 100%;
+}
+.right img{
+	float :left;
+	width:32px;
+	height: 32px;
+	margin-right: 5px;
+}
+footer li{
+	color: white;
+	font-size: 20px;
+}
+.first{
+	width: 100%;
+	height:auto;
+	
+	float: left;
+	
+	margin-top: 100px;
+	
+	
+
+}
+.first img{
+	width: 99%;
+	height: 800px;
+	margin-bottom: 0px;
+}
+article{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	float: left;
+}
+.second {
+
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin-top: 20px;
+}
+.second video {
+	width: 99%;
+	height: auto;
+	
+	float: left;
+	margin-left: 8px;
+}
+.shopnow{
+	width: 100%;
+	height: 140px;
+	float: left;
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+	margin-top: 10px;
+}
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+.third {
+	float: left;
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	margin: 10px;
+}
+.thirdleft {
+	width: 30%;
+	height: 400px;
+	background-color: white;
+	margin-right: 20px;
+	float: left;
+	margin-left: 20px;
+	margin: 20px;
+	position:relative;
+}
+.thirdcenter {
+	width: 30%;
+	height: 400px;
+	background-color: white;
+	
+	float: left;
+	margin: 20px;
+	margin-left: 37px;
+	position:relative;
+}
+.thirdright {
+	width: 30%;
+	height: 400px;
+	background-color: white;
+	margin-right: 20px;
+	float: right;
+	margin: 20px;
+	position:relative;
+	
+}
+.third img{
+	width: 30%;
+	height: 400px;
+}
+.title{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	bottom: 1px;
+	right: 10px;
+	float: left;
+	
+	text-align: center;
+	font-size: 25px;
+	font-family: ".VnArial";
+	color: white;
+	
+}
+/*INDEX FINISH*/
+
+
+/*ARITCLE BEGIN*/
+
+.product{
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	position: relative;
+	text-align: center;
+	font-size: 17px;
+	
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	
+	
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:rgba(84,63,221,0.600);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;  
+}
+.product:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.product img {
+  display: block;
+  width: 100%;
+  height: auto;
+   margin-top: 10px;
+}
+.chen{
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	position: relative;
+
+	
+	
+}
+.chen img {
+  display: block;
+  width: 99%;
+  height: auto;
+float :left;
+}
+.bonus {
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+
+}
+.bonus img{
+	
+	display: block;
+ 	width: 29%;
+  	height: auto;
+	float :left;
+	margin-left: 8px;
+	margin-top: 5px;
+	
+	}
+.showproduct{
+	float: left;
+	
+	width: 100%;
+	height: auto;
+}
+.deco img{
+	
+	display: block;
+ 	width: 100%;
+  	height: auto;
+	float :left;
+	
+	
+	
+	}
+.main {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+	
+}
+h1{
+	margin-top: 30px;
+	font-size: 35px;
+	font-family: ".VnArial";
+	}
+.mainleft {
+	width: 15%;
+	height: 800px;
+	
+	float: left;
+	border  : 0.5px solid #AFAFAF;
+	
+	
+}
+.mainright {
+	width: 80%;
+	height: auto;
+	
+	float: right;
+	
+	margin-right: 0.5%;
+	
+		
+}
+ul {
+	
+	margin-left: 1px;
+	width: 100%;
+	padding-left: 8px;
+	border: none;
+	display: block;
+	
+	
+}
+ul a{
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 10px;
+	
+	width: 150px;
+	height: 21px;
+	float: left;
+	
+	background-color: white;
+}
+ul a:hover{
+		color :#575757;
+
+}
+.soldout{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	top :70px;
+	right: 50px;
+}
+.soldout img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*JORDAN 33*/
+.jordanintro {
+	width: 99%;
+	height: 800px;
+	
+}
+.FUTURE{
+	width: 100%;
+	height: 600px;
+	
+	float: left;
+	margin-top: 20px;
+}
+.future1{
+	width: 50%;
+	height:auto;
+	
+	float: left;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 17px;
+}
+.future2{
+	width: 50%;
+	height: 100%;
+	
+	float: left;
+	
+	
+	
+}
+.future2 img{
+	width: 80%;
+	height: auto;
+	margin-left: 30px;
+}
+.fit{
+	width: 100%;
+	height: 600px;
+	
+	float: left;
+	margin-top: 70px;
+}
+.fit2{
+	width: 27%;
+	height:auto;
+	
+	float: left;
+	
+	margin-left: 0px;
+	margin-top: 387px;
+	font-size: 20px;
+}
+.fit1{
+	width: 69%;
+	height: 100%;
+	
+	float: left;
+	
+	
+	
+}
+.fit1 img{
+	width: 80%;
+	height: auto;
+	margin-left: 30px;
+}
+.tun{
+	width: 100%;
+	height: 600px;
+	
+	float: left;
+	margin-top: 70px;
+}
+.tun1{
+	width: 27%;
+	height:auto;
+	
+	float: left;
+	
+	margin-left: 35px;
+	
+	font-size: 20px;
+}
+.tun2{
+	width: 70%;
+	height: 100%;
+	
+	float: right;
+	
+	
+	
+}
+.tun2 img{
+	width: 90%;
+	height: auto;
+	margin-left: 30px;
+}
+.light{
+	width: 100%;
+	height: 600px;
+	
+	float: left;
+	margin-top: 70px;
+}
+.light2{
+	width: 27%;
+	height:auto;
+	
+	float: left;
+	
+	margin-left: 0px;
+	margin-top: 448px;
+	font-size: 20px;
+}
+.light1{
+	width: 69%;
+	height: 100%;
+	
+	float: left;
+	
+	
+	
+}
+.light1 img{
+	width: 90%;
+	height: auto;
+	margin-left: 30px;
+}
+
+
+.find {
+	width: 100%;
+	height: auto;
+	float: left;
+}
